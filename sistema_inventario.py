@@ -45,7 +45,7 @@ class Producto:
             raise TypeError("La cantidad debe ser númerica.")
         
         if val < 0:
-            raise ValueError("El precio debe ser mayor o igual a 0.")
+            raise ValueError("La cantidad debe ser mayor o igual a 0.")
         self._cantidad = val
 
     
